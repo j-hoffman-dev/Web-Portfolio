@@ -1,8 +1,7 @@
 # Web-Portfolio
-Not all web related content, but hey- I'm a man of sophistication mkay?
-<br><br>
 <div style="color:silver;">
   <p>
+    Not all web related content, but hey- I'm a man of sophistication mkay?
     To view this portfolio you'll need to first do some work, there are one of two ways to accomplish this;
   </p>
 
