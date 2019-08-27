@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Inept Inspirations - J. Hoffman</title>
+        <!--
+            J. Hoffman
+            Aug 27, 2019
+        -->
+        <meta charset="utf-8" />
+        <style type="text/css">
+            @import url("css_portfolio.css");
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="scr_portfolio_jquery.js"></script>
+        <script src="scr_portfolio_bootstrap.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("a").on('click', function(event) {
+					if (this.hash !== "") {			
+						event.preventDefault();
+				  
+						var hash = this.hash;
+
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top }, 800, function() { window.location.hash = hash; 
+						});
+					}
+				});
+			});
+		</script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a style="text-transform: lowercase;" href="#segIN">&lt;ii&gt;</a></li>
+                        <li><a href="#seg01">01.</a></li>
+                        <li><a href="#seg02">02.</a></li>
+                        <li><a href="#seg03">03.</a></li>
+                        <li><a href="#seg04">04.</a></li>
+                        <li><a href="#seg05">05.</a></li>
+                        <li><a href="#seg06">06.</a></li>
+                        <li><a href="#seg07">07.</a></li>
+                        <li><a href="#seg08">08.</a></li>
+                        <li><a href="#segRE">EOF.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="segIN" class="container-fluid">
+            <h1>inept inspirations.</h1>
+        </div>
+        <div id="seg01" class="container-fluid">
+            <div class="num">
+                <h3>inspiration:</h3>
+                <h2>01.</h2>
+                <h3>12 / 09 / 19</h3>
+            </div>
+            <div class="info left">
+                <p>The following works were produced either over the duration of my 
+                    enrollment at Anoka Technical College, or afterwards. This collection
+                    is comprised of some projects currently in progress, though many can 
+                    be interacted with using the links provided.
+                </p>
+            </div>
+            <div class="info left">
+                <p><u>EVERYTHING</u> in this portfolio is 100% original work including the 
+                    portfolio itself and even the picture seen here, with the exception 
+                    to <a href="https://getbootstrap.com/" target="_blank">bootstrap</a> 
+                    and <a href="https://jquery.com/" target="_blank">jquery</a> working 
+                    behind the scenes to bring it to life. This portfolio is subject to 
+                    constant change, though since I'm too busy working on projects to 
+                    populate it I haven't got around to going live with it yet.
+                </p>
+            </div>
+            <div class="info left">
+                <p>My goal is to eventually use the skills I've developed to 
+                    pursue self employment through art.
+                </p>
+            </div>
+        </div>
+        
+        <div id="seg02" class="container-fluid">
+            <div class="num right">
+                <h3>inspiration:</h3>
+                <h2>02.</h2>
+                <h3>09 / 22 / 17</h3>
+            </div>
+            <div class="info right">
+                <p>The inevitable result of approximately six hours of binge programming 
+                    with C#, the aptly named "SNEK" game quickly gained notoriety among 
+                    both students and staff alike for its simple yet surprisingly difficult 
+                    premise.
+                </p>
+            </div>
+            <div class="info right">
+                <p>Unoriginal as it may be, considering the short span in which it was 
+                    developed, I'm quite satisfied with the final product. Initially, I 
+                    planned to implement a second player, as well as a scoreboard to 
+                    further promote a more competitive experience. Such features however 
+                    were scrapped as I lacked the interest/time to further develop the 
+                    game.
+                </p>
+            </div>
+            <div class="info right">
+                <p>Regardless, snek lives on, and is available for play through the 
+                    download below. You may need to run it in your favorite IDE, not sure 
+                    if I packed an executable in there.
+                </p>
+            </div>
+            <div class="info right">
+                <i style="color: #FC0; text-align: inline;">A.Tech best: 34</i><a href="inspirations/Hoffman_Challenge5.zip" class="btn" download>download</a>
+            </div>
+        </div>
+        
+        <div id="seg03" class="container-fluid">
+            <div class="num">
+                <h3>inspiration:</h3>
+                <h2>03.</h2>
+                <h3 style="color: RED;">in progress.</h3>
+            </div>
+            <div class="info left">
+                <p>Couldn't think of anything to get my dad last Christmas, so why not a 
+                    new website! 
+                </p>
+            </div>
+            <div class="info left">
+                <p>My dad enjoys woodworking as a hobby, and has for many years 
+                    now. Recently he decided to get a CNC machine and spoke of maybe selling 
+                    some of his work in the future. With that I decided flex my web 
+                    skills and take this opportunity to test out a new custom restful api 
+                    I had been working on for another project in my spare time.
+                </p>
+            </div>
+            <div class="info left">
+                <p>The site isn't live right now, and I still need to implement a 
+                    payment gateway, but the back-end is all there. 
+                </p>
+            </div>
+        </div>
+        
+        <div id="seg04" class="container-fluid">
+            <div class="num right">
+                <h3>inspiration:</h3>
+                <h2>04.</h2>
+                <h3>04 / 19 / 18</h3>
+            </div>
+            <div class="info right">
+                <p>This website was completed for a capstone project and marks my first 
+                    time working in a team on something of this scale. A team which I 
+                    very much enjoyed being a memeber of for its casual nature and strong 
+                    work ethic. Though certainly not my first experience collaborating 
+                    with other developers, it taught me quite a lot about how to properly 
+                    express, criticize, and communicate in a meaningful and professional 
+                    way.
+                </p>
+            </div>
+            <div class="info right">
+                <p>Chris Lomheim is a Minneapolis based Jazz musician, he's been playing 
+                    music basically his entire life. An increadibly humble man, Chris was 
+                    a joy to work with. You can view his (hopefully functional) website 
+                    using the link below.
+                </p>
+            </div>
+            <div class="info right">
+                    <a href="http://chrislomheim.com/" target="_blank" class="btn">visit site</a>
+            </div>
+        </div>
+
+        <div id="seg05" class="container-fluid">
+            <div class="num">
+                <h3>inspiration:</h3>
+                <h2>05.</h2>
+                <h3>01 / 24 / 18</h3>
+            </div>
+            <div class="info left">
+                <p>Some years ago, my dad suffered a sudden cardiac arrest at his job and 
+                    was saved via bystander CPR from his coworker. Since then, he's 
+                    become a champion of the Heartsafe initiative, which aims to educate 
+                    the public on CPR/AED resuscitation techniques. So when the chance to 
+                    redesign their official logo presented itself, I jumped on it.
+                </p>
+            </div>
+                <div class="info left">
+                <p>The outcome of this heartfelt endeavor, was a newfound appreciation and understanding 
+                    of vector graphics. 
+                </p>
+            </div>
+        </div>
+        
+        <div id="seg06" class="container-fluid">
+            <div class="num right">
+                <h3>inspiration:</h3>
+                <h2>06.</h2>
+                <h3 style="color: RED;">in progress.</h3>
+            </div>
+            <div class="info right">
+                <p><b>Oh boy, where to begin with this one?</b><br><br> In college I wrote a 
+                    couple of game engines, but nothing this substantial. Typically small 
+                    in scale, inefficient, and with little regard for maintainability. I 
+                    wanted to build something <b>bigger</b>, <i>faster</i>, <u>better</u> 
+                    in every way.
+                </p>
+            </div>
+            <div class="info right">
+                <p>Having to contending with the shear scale of this program it soon 
+                    became evident that I couldn't just write code without considering how 
+                    it would (or wouldn't) interact with other parts of the engine. It 
+                    demanded a new approach to how I program, it challenged me to change 
+                    how I <i>thought</i> about code.
+                    Major bottlenecks of previous engines had been the use of 
+                    libraries like Java AWT and poor design practices. So I decided to 
+                    instead utilize low level libraries like OpenGL and subsequently 
+                    overhaul engine architecture to accommodate by brushing up on my 
+                    computing theory- the difference between the two is like night and day.
+                </p>
+            </div>
+            <div class="info right">
+                <p>The decision to use Mario for tech demos just fit since I could indulge 
+                    in creating art for one of my favorite franchises and keep project scope 
+                    within reason. There's still a lot of work to do but I'm eager to push 
+                    this new engine into production on a original IP as soon as a good 
+                    idea pops up.
+                </p>
+            </div>
+        </div>
+        
+        <div id="seg07" class="container-fluid">
+            <div class="num">
+                <h3>inspiration:</h3>
+                <h2>07.</h2>
+                <h3>12 / 07 / 17</h3>
+            </div>
+            <div class="info left">
+                <p>The final version you see here is the result of two assignments from differing 
+                    courses of loosely connected subject matter. The first being a web design course, 
+                    whereas the second pertained exclusively to Linux server administration. 
+                    The already developed <a href="" target="_blank">fictional band page</a> was 
+                    subsequently used to learn about site hosting, and for a brief period, even 
+                    occupied a live space on the internet.
+                </p>
+            </div>
+            <div class="info left">
+                <p>This project was somewhat of a milestone in my journey, it was the first time I had 
+                    started incorporating various project management techniques into my work.
+                </p>
+            </div>
+            <div class="info">
+                    <a href="inspirations/ScriptingFinal.zip" class="btn" download>get source</a>
+            </div>
+        </div>
+        
+        <div id="seg08" class="container-fluid">
+            <div class="num right">
+                <h3>inspiration:</h3>
+                <h2>08.</h2>
+                <h3>01 / 29 / 18</h3>
+            </div>
+            <div class="info right">
+                <p>While not nearly as intricate or elegant as a 
+                    <a href="http://tilde.club/~david/m/" target="_blank">Mandelbrot Set</a>, 
+                    the color iterator utilizes similar recursive concepts, albiet to 
+                    some functional use. A byproduct of another web course late in my 
+                    program, I still refer to it from time to time when I need new color 
+                    palettes, or inspiration.
+            </p>
+                </div>
+                <div class="info right">
+                <p>Alter the iteration value passed to the do-while loop, you may be 
+                    surprised by the results.
+                </p>
+                </div>
+            <div class="info right">
+                <a href="inspirations/hoffman_chal3-2.zip" class="btn" download>get source</a>
+            </div>
+        </div>
+        
+        <div id="segRE" class="container-fluid" style="text-align: center;">
+            <a href="https://github.com/theskidster" target="_blank" class="btn" style="margin-top: 325px !important;" download>my github</a>
+            <p><br>(not gonna lie, its pretty dead rn.)</p>
+        </div>
+        
+    </body>
+</html>

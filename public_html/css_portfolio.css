@@ -1,0 +1,219 @@
+* {
+    font-family: "tech";
+    color: #BBB;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "barcode";
+    src: url('assets/bgf_barcode.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "tech";
+    src: url('assets/bgf_tech.ttf') format("truetype");
+}
+
+h1 {
+    font-family: "barcode" !important;
+    font-weight: lighter !important;
+    font-size: 32pt !important;
+    text-align: center !important;
+    margin-top: 325px !important; /* +75 for nav */
+}
+
+h2, 
+h3,
+p {
+    margin: 0 50px !important;
+}
+
+h2 {
+    font-weight: bold !important;
+    font-size: 80pt !important;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 9pt;
+    word-wrap: break-word;
+}
+
+div.num {
+    margin-top: 20px !important;
+}
+
+div.info {
+    margin-top: 45px !important;
+}
+
+div.left {
+    max-width: 52%;
+}
+
+div.right {
+    float: right;
+    margin-left: 48%;
+}
+
+a:hover {
+    color: WHITE !important;
+    transition: 0.4s;
+}
+
+a.btn {
+    text-decoration: none;
+    background-color: transparent;
+    color: #CCC;
+    border: thin solid;
+    margin: 0 50px;
+    padding: 10px 32px;
+    text-transform: uppercase;
+}
+
+a.btn:hover {
+    background-color: WHITE;
+    color: BLACK !important;
+    transition-duration: 0.4s;
+}
+
+/* 
+* Would've generated these via PHP, but the portfolio needed to be in html so
+* users could just click the file and view it.
+*/
+
+#segIN,
+#seg01,
+#seg02,
+#seg03,
+#seg04,
+#seg05,
+#seg06,
+#seg07,
+#seg08,
+#segRE {
+    padding: 50px; 
+    height: 100vh;
+}
+
+#segIN,
+#segRE {
+    background-color: BLACK;
+    background-image: url("assets/img_portfolio_logo.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#seg01 { 
+    background: -webkit-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_1.jpg");
+    background: -moz-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_1.jpg");
+    background: -o-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_1.jpg");
+    background: linear-gradient(60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_1.jpg");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg02 {
+    background: -webkit-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_2.gif");
+    background: -moz-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_2.gif");
+    background: -o-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_2.gif");
+    background: linear-gradient(-60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_2.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg03 { 
+    background: -webkit-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_3.gif");
+    background: -moz-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_3.gif");
+    background: -o-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_3.gif");
+    background: linear-gradient(60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_3.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg04 { 
+    background: -webkit-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_4.gif");
+    background: -moz-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_4.gif");
+    background: -o-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_4.gif");
+    background: linear-gradient(-60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_4.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg05 { 
+    background: -webkit-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_5.png");
+    background: -moz-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_5.png");
+    background: -o-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_5.png");
+    background: linear-gradient(60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_5.png");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg06 { 
+    background: -webkit-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_6.gif");
+    background: -moz-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_6.gif");
+    background: -o-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_6.gif");
+    background: linear-gradient(-60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_6.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg07 { 
+    background: -webkit-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_7.jpg");
+    background: -moz-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_7.jpg");
+    background: -o-linear-gradient(330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_7.jpg");
+    background: linear-gradient(60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_7.jpg");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#seg08 { 
+    background: -webkit-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_8.gif");
+    background: -moz-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_8.gif");
+    background: -o-linear-gradient(-330deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_8.gif");
+    background: linear-gradient(-60deg, BLACK 22%, rgba(0, 0, 0, 0.9) 32%, TRANSPARENT), 
+    url("assets/img_portfolio_8.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
