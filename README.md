@@ -24,4 +24,4 @@
   </p>
 </div>
 <br><br>
-<img src="https://github.com/theskidster/Web-Portfolio/blob/master/img_preview.GIF">
+<img src="https://github.com/theskidster/Web-Portfolio/blob/master/img_preview.gif">
