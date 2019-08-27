@@ -1,7 +1,7 @@
 # Web-Portfolio
 Not all web related content, but hey- I'm a man of sophistication mkay?
 <br><br>
-<p style="background-color: silver">
+<p style="background-color: silver;">
 To view this portfolio you'll need to first do some work, there are one of two ways to accomplish this;
 
 METHOD 1:
