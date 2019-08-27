@@ -1,13 +1,15 @@
 # Web-Portfolio
 Not all web related content, but hey- I'm a man of sophistication mkay?
 <br><br>
-<p style="background-color: silver;">
+<p style="background-color:silver;">
 To view this portfolio you'll need to first do some work, there are one of two ways to accomplish this;
 
 METHOD 1:
-1. enter the folder "public_html"
-2. right click "index.html" and open with a browser (preferably chrome.)
-3. enjoy!
+<ol><li>enter the folder "public_html"</li>
+</ol>
+
+right click "index.html" and open with a browser (preferably chrome.)
+enjoy!
 
 METHOD 2:
 1. Extract the .zip files contents to your desktop or other arbitrary location of your choosing.
