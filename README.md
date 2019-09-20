@@ -1,8 +1,8 @@
 # Web-Portfolio
 <div style="color:silver;">
   <p>
-    Not all web related content, but hey- I'm a man of many talents.
-    To view this portfolio you'll need to first do some work, there are two ways to accomplish this;
+    This will probably be hosted sometime in the future, but in the meantime to view this portfolio you'll 
+    first need to follow one of the two methods below.
   </p>
 
   <p>
